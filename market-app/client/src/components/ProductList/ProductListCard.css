@@ -1,0 +1,34 @@
+.productcard{
+    width: 40%;
+}
+
+@media (max-width: 768px) {
+    /* ProductListCard.css */
+
+    .product-card-container {
+        background-color: #121212; /* Change this to your desired background color */
+        padding: 1rem;
+        border-radius: 0.5rem;
+        margin-bottom: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center; /* Center text within the container */
+    }
+
+    .product-card-container .productcard {
+        max-width: 100%; /* Limit the width of the product card */
+    }
+
+    .product-card-container dt {
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .product-card-container button {
+        margin-top: 1rem; /* Adjust the top margin as needed */
+    }
+
+}
