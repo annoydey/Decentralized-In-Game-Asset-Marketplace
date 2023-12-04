@@ -58,11 +58,10 @@ Deploying to Sepolia Testnet
 8. Type ‘npm install’
 9. Type ‘npm run build’
 10.Use ‘dist’ folder in market-app to deploy front-end on Netlify
-
+11. Open up provided link
 
 TODO:
 - Add events with popup
     - Need to do: buy
 - Implement batchOf function?
 
-11. Open link
